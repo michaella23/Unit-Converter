@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <p class="heading">Metric/Imperial unit conversion</p>
+            <input class="input" id="input" onfocus="this.value=''" type="text" value="0"></input>
+            <label class="label" for="input">Enter a number</label>
+        </header>
+        <div class="conversions">
+            <div>
+                <p class="unit">Length (Meter/Feet)</p>
+                <p class="conversion"><span id="meters">0</span> meters = <span id="foot-conversion">0.000</span> feet | <span id="feet">0</span> feet = <span id="meter-conversion">0.000</span> meters</p>
+            </div>
+            <div>
+                <p class="unit">Volume (Liters/Gallons)</p>
+                <p class="conversion"><span id="liters">0</span> liters = <span id="gallon-conversion">0.000</span> gallons | <span id="gallons">0</span> gallons = <span id="liter-conversion">0.000</span> liters</p>
+            </div>
+            <div>
+                <p class="unit">Mass (Kilograms/Pounds)</p>
+                <p class="conversion"><span id="kilos">0</span> kilos = <span id="pound-conversion">0.000</span> pounds | <span id="pounds">0</span> pounds = <span id="kilo-conversion">0.000</span> kilos</p>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

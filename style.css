@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    height: 600px;
+    width: 600px;
+    background-color: #1F2937;
+}
+
+header {
+    height: 45%;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+
+.input {
+    width: 200px;
+    font-size: 8rem;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    opacity: 50%;
+    border: none;
+}
+
+.input:hover, .input:focus {
+    border: 1px solid #585DFE;
+    border-radius: .25rem;
+}
+
+.input:active {
+    border-color: #FB3796;
+}
+
+.label {
+    margin-top: 0;
+    border-top: 1px solid #585DFE;
+    padding: 3px;
+    font-size: .7rem;
+    opacity: 85%;
+}
+
+.conversions {
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+/* ================ typography ================= */
+
+.heading {
+    font-size: 1.4rem;
+}
+
+.unit {
+    font-weight: 600;
+}
+
+.conversion {
+    font-weight: 500;
+    color: #D2D2D2;
+}
+
