@@ -31,6 +31,7 @@ header {
     justify-content: center;
     align-items: center;
     font-weight: 800;
+    text-align: center;
 }
 
 .input {
